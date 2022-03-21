@@ -15,6 +15,8 @@
 # 실행방법
 ```sh
 vagrant up
+sudo usermod -aG docker $USER && newgrp docker
+minikube start --driver=docker
 ```
 
 # 중지방법
